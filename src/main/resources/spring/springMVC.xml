@@ -24,7 +24,7 @@
 	<!-- 配置dubbo服务 -->
 	<dubbo:application name="taotao-content-web"/>
 	<!-- <dubbo:registry address="multicast://224.5.6.7:1234" /> -->
-	<dubbo:registry protocol="zookeeper" address="192.168.20.129:2181"/>	
+	<dubbo:registry protocol="zookeeper" address="192.168.20.132:2181"/>	
 	<dubbo:monitor protocol="registry"/>
 	<dubbo:reference interface="cn.zhx.service.ContentSerivce" id="itemCatSerivceImpl" />
 </beans>
